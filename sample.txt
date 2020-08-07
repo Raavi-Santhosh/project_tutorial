@@ -1,0 +1,69 @@
+username
+password
+email
+first_name
+last_name
+is_active
+
+forms -- form
+        ModelForm
+
+
+
+        User
+
+
+        1. username
+        2. first_name
+        3. last_name
+        4. gender
+        5. created_at
+        6. is_Active
+        7.email
+        8. password
+        9. updated_at
+        .......12
+
+
+login view
+    1. Own login View
+            1. username & password login fields
+            2. Authenticate against stored data from  database
+            3. check for in_Active
+            4. log the user in
+logout view
+
+
+
+Assignments:
+
+1. integerate login-form after registration
+2. Display your content in dashboard after login
+
+
+LOGIN_URL = 'login'
+
+LOGOUT_URL = 'logout'
+
+LOGIN_REDIRECT_URL = 'Myprofile'
+
+
+
+password :
+
+1. Password change view
+2. password changed done view
+
+
+1. password reset view
+2. password rest done view
+3. password reset confirm view
+4. password reset complete view
+
+
+
+
+knox
+
+allauth
+djoser
